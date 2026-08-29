@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="hu">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="WEBPAGE1 tesztoldal">
+	<title>WEBPAGE1</title>
+	<style>
+		:root {
+			color-scheme: light;
+			--ink: #15212b;
+			--paper: #f5f2e9;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			display: grid;
+			min-height: 100vh;
+			margin: 0;
+			place-items: center;
+			overflow: hidden;
+			background:
+				linear-gradient(90deg, rgb(21 33 43 / 6%) 1px, transparent 1px),
+				linear-gradient(rgb(21 33 43 / 6%) 1px, transparent 1px),
+				var(--paper);
+			background-size: 32px 32px;
+			color: var(--ink);
+			font-family: Georgia, "Times New Roman", serif;
+		}
+
+		main {
+			padding: 2rem;
+			text-align: center;
+		}
+
+		h1 {
+			display: flex;
+			justify-content: center;
+			margin: 0;
+			font-size: clamp(4rem, 15vw, 13rem);
+			font-weight: 800;
+			letter-spacing: 0;
+			line-height: 0.9;
+		}
+
+		h1 span:nth-child(1) { color: #e24b3f; }
+		h1 span:nth-child(2) { color: #e09c24; }
+		h1 span:nth-child(3) { color: #4d9c58; }
+		h1 span:nth-child(4) { color: #2786b8; }
+		h1 span:nth-child(5) { color: #8059a8; }
+		h1 span:nth-child(6) { color: #d74f7d; }
+		h1 span:nth-child(7) { color: #2c9d94; }
+		h1 span:nth-child(8) { color: #5e6670; }
+	</style>
+</head>
+<body>
+	<main>
+		<h1 aria-label="WEBPAGE1">
+			<span>W</span><span>E</span><span>B</span><span>P</span><span>A</span><span>G</span><span>E</span><span>1</span>
+		</h1>
+	</main>
+</body>
+</html>
